@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page - Oskar Sollenberg portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div>
+        <input type="checkbox" id="check">
+        <header>
+            <div class="pages">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="follow.html">FollowMe</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <label for="check">
+                <i class="fas fa-bars menu-btn"></i>
+                <i class="fas fa-times close-btn"></i>
+            </label>
+        </header>
+    </div>
+
+    <div class="contact-form-container">
+        <h1>Contact me</h1>
+        <p>Reach out to me regarding collaborations or questions. <br> Write a message in the contact-form and i will respond to your given email.</p>
+
+        <div class="contact-box">
+            <div class="contact-form-left">
+                <h3>Send your request</h3>
+
+                <form>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label class="forum-txt">Name</label>
+                            <input type="text" placeholder="Sven Svensson"> 
+                        </div>
+                        <div class="input-group">
+                            <label class="forum-txt">Number</label>
+                            <input type="text" placeholder="+46 07 570 05 00"> 
+                        </div>
+                    </div>
+
+
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label class="forum-txt">Email</label>
+                            <input type="email" placeholder="sven@svensson.se"> 
+                        </div>
+
+                        <div class="input-group">
+                            <label class="forum-txt">Subject</label>
+                            <input type="text" placeholder="Project idea"> 
+                        </div>
+                    </div>
+
+                    <label class="forum-txt" >Message</label>
+                    <textarea rows="5" placeholder="Write a message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+
+
+            <div class="contact-form-right">
+                <h3>Contact me</h3>
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>Oskar@sollenberg.se</td>
+                    </tr>
+                    <tr> 
+                        <td>Phone</td>
+                        <td>+46 76 207 47 85</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>Bondegatan 1F 116 23 Stockholm</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
